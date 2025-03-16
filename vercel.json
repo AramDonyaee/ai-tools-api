@@ -2,7 +2,7 @@
     "version": 2,
     "functions": {
       "api/*.js": {
-        "use": "@vercel/node"
+        "runtime": "@vercel/node"
       }
     },
     "routes": [
